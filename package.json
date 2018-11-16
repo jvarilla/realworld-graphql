@@ -28,7 +28,9 @@
     "jsonwebtoken": "^7.4.0",
     "lodash": "^4.17.4",
     "request": "^2.81.0",
-    "request-promise": "^4.2.0"
+    "request-promise": "^4.2.0",
+    "webpack": "^4.25.1",
+      "babel-polyfill": "^6.23.0",
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
