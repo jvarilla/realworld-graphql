@@ -9,7 +9,7 @@
   "scripts": {
     "build": "babel src -d build",
     "lint": "eslint src jest",
-    "start": "node server.js",//node build/server.js
+    "start": "node server.js",
     "dev": "nodemon -e js,graphql -w ./src bootstrap.js"
   },
   "dependencies": {
