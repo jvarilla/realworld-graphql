@@ -10,27 +10,27 @@ var _graphqlServerHapi = require('graphql-server-hapi');
 
 var _graphqlServerCore = require('graphql-server-core');
 
-var _api = require('./build/core/api');
+var _api = require('./core/api.js');
 
 var _api2 = _interopRequireDefault(_api);
 
-var _log = require('./build/core/log');
+var _log = require('./core/log.js');
 
 var _log2 = _interopRequireDefault(_log);
 
-var _auth = require('./build/core/auth');
+var _auth = require('./core/auth.js');
 
 var _auth2 = _interopRequireDefault(_auth);
 
-var _config = require('./build/core/config');
+var _config = require('./core/config.js');
 
 var _config2 = _interopRequireDefault(_config);
 
-var _schema = require('./build/core/schema');
+var _schema = require('./core/schema.js');
 
 var _schema2 = _interopRequireDefault(_schema);
 
-var _error = require('./build/core/error');
+var _error = require('./core/error.js');
 
 var _error2 = _interopRequireDefault(_error);
 
