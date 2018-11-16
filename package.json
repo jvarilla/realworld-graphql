@@ -2,14 +2,14 @@
   "name": "realworld-graphql",
   "version": "1.0.0",
   "description": "Realword implemented with GraphQL server",
-  "main": "build/server.js",
+  "main": "./build/server.js",
   "repository": "https://github.com/thebergamo/realworld-graphql.git",
   "author": "Marcos Bérgamo <marcos@thedon.com.br>",
   "license": "MIT",
   "scripts": {
     "build": "babel src -d build",
     "lint": "eslint src jest",
-    "start": "node build/server.js",
+    "start": "node ./build/server.js",
     "dev": "nodemon -e js,graphql -w ./src bootstrap.js"
   },
   "dependencies": {
