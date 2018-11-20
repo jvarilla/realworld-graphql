@@ -37,7 +37,7 @@
             "eb11fa70-1250-403f-834e-389842de7b92": {
                 "id": "eb11fa70-1250-403f-834e-389842de7b92",
                 "title": "Local - No Auth",
-                "url": "https://guarded-gorge-41980.herokuapp.com/graphql",
+               // "url": "https://guarded-gorge-41980.herokuapp.com/graphql",
                 "queryMethod": "POST",
                 "variables": {}
             }

@@ -40,6 +40,9 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 var server = new _hapi2.default.Server();
 
+server.settings({
+  cors: true
+})
 server.register({
   register: _log2.default
 });
